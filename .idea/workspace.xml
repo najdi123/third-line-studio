@@ -133,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="474" column="80" selection-start-line="474" selection-start-column="80" selection-end-line="474" selection-end-column="80" />
+            <state relative-caret-position="85">
+              <caret line="466" column="7" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#229#258#0" expanded="true" />
@@ -192,6 +192,7 @@
       <find>Industrial</find>
       <find>brand</find>
       <find>studio4</find>
+      <find>.git</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -347,12 +348,12 @@
       <workItem from="1524650955063" duration="867000" />
       <workItem from="1527162729925" duration="101000" />
       <workItem from="1545048774410" duration="2781000" />
-      <workItem from="1545123753006" duration="10047000" />
+      <workItem from="1545123753006" duration="10304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106446000" />
+    <option name="totallyTimeSpent" value="106703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -528,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="474" column="80" selection-start-line="474" selection-start-column="80" selection-end-line="474" selection-end-column="80" />
+        <state relative-caret-position="85">
+          <caret line="466" column="7" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#229#258#0" expanded="true" />
