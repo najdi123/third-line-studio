@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
+import Flash from "react-reveal/Flash";
 
 import Footer from "../components/Footer.jsx";
 import Navbar from "../components/Navbar.jsx";
@@ -49,12 +50,15 @@ class GraphicDesign extends Component {
                 <section className="intro">
                     <div className="jumbotron">
                         <div className="container">
-                            <Fade top>
-                                <h1 className="name be-title">The Power of the Mind, the Miracle of Science, and WillPower</h1>
-                            </Fade>
+                            <Flash>
+                                <h1 className="name top">حسین رضازاده</h1>
+
+                            </Flash>
                             <Fade left>
+
                                 <h1 className="describe">
-                                    We are empowered by the strength of your dream for the future. We believe that our main job is not only advertising, but creating a foundation for you to realize a future even better than you expected.
+
+                                    طراح گرافیک، لوگو و مشاور برندینگ مستقر در تهران
                                 </h1>
                             </Fade>
 
@@ -141,36 +145,40 @@ class GraphicDesign extends Component {
                         <div className="container blue-container">
                             <section className="intro">
                                 <Fade top>
-                                    <h1 className="name"> SERVICES</h1>
+                                    <h1 className="name"> خدمات</h1>
                                 </Fade>
                                 <Fade left>
                                     <h1 className="blue-describe ">
-                                        Full-service creative solution for  brand design, photography, digital content
-                                        and packaging development.</h1>
+                                        <span dir="rtl">
+                                        ارائه کننده خدمات مبتکرانه برای طراحی برند، لوگو، گرافیک محتوا و بسته بندی محصولات.
+                                        </span>
+                                    </h1>
                                 </Fade>
                             </section>
                             <section className="row services-wrapper">
                                 <div className="col-sm-12 col-md-6 col-lg-4 servax">
-                                    <div className="brand-design ">
+                                    <div className="brand-design start-right ">
                                         <a href="#">
                                             <Fade left>
                                                 <img src={d1} alt="" />
                                             </Fade>
                                         </a>
                                         <br/>
-                                        <h6 style={{ fontFamily: 'worksansbold', letterSpacing: '2px' }}>BRAND DESIGN</h6>
-                                        <p style={{ color: "rgb(0, 240, 220)", fontFamily: 'worksans' }}>
-                                            Brand strategy, creative direction and production for
-                                            printed and online projects.
+                                        <h6 className=" ">طراحی برند</h6>
+                                        <p className=" color">
+                                            استراتژی برند و راهنمایی خلاق برای تولید چاپ محصولات و پروژه آنلاین
                                         </p>
-                                        <li>Brand Creation</li>
-                                        <li>Art Direction</li>
-                                        <li>Brand Strategy</li>
-                                        <li>Advertising</li>
-                                        <li>Brand Guidelines</li>
-                                        <li>Environment Design</li>
-                                        <li>Artwork Production</li>
-                                        <li>Print Management</li>
+                                        <span dir="rtl">
+
+                                            <li>Brand Creation</li>
+                                            <li>Art Direction</li>
+                                            <li>Brand Strategy</li>
+                                            <li>Advertising</li>
+                                            <li>Brand Guidelines</li>
+                                            <li>Environment Design</li>
+                                            <li>Artwork Production</li>
+                                            <li>Print Management</li>
+                                        </span>
                                         <br />
                                         <br />
                                         <a href="#">
@@ -179,26 +187,28 @@ class GraphicDesign extends Component {
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-4 servax">
-                                    <div className="brand-design ">
+                                    <div className="brand-design start-right">
                                         <a href="#">
                                             <Fade bottom>
                                                 <img src={d2} alt="" />
                                             </Fade>
                                         </a>
                                         <br/>
-                                        <h6 style={{ fontFamily: 'worksansbold',letterSpacing: '2px' }}>DIGITAL DESIGN</h6>
-                                        <p style={{ color: "rgb(0, 240, 220)" , fontFamily: 'worksans'}}>
-                                            Website design and digital asset creation with a focus on design and brand cohesion.
-                                        </p>
-                                        <li style={{ color: "white" }}>Website Design</li>
-                                        <li style={{ color: "white" }}>Digital Advertising</li>
-                                        <li style={{ color: "white" }}>Mobile Websites</li>
-                                        <li style={{ color: "white" }}>Social Media</li>
-                                        <li style={{ color: "white" }}>Digital Assets</li>
-                                        <li style={{ color: "white" }}>App Design</li>
-                                        <li style={{ color: "white" }}>File Preparation</li>
-                                        <li style={{ color: "white", textDecoration: "none" }}>Onscreen Presentations</li>
+                                        <h6 >طراحی دیجیتال</h6>
+                                        <p className=" color">
+                                            طراحی وبسایت و داراییهای دیجیتال با تمرکز بر زیبایی و یکنواختی برند
 
+                                        </p>
+                                        <span dir="rtl">
+                                            <li style={{ color: "white" }}>Website Design</li>
+                                            <li style={{ color: "white" }}>Digital Advertising</li>
+                                            <li style={{ color: "white" }}>Mobile Websites</li>
+                                            <li style={{ color: "white" }}>Social Media</li>
+                                            <li style={{ color: "white" }}>Digital Assets</li>
+                                            <li style={{ color: "white" }}>App Design</li>
+                                            <li style={{ color: "white" }}>File Preparation</li>
+                                            <li style={{ color: "white", textDecoration: "none" }}>Onscreen Presentations</li>
+                                        </span>
                                         <br />
                                         <br />
                                         <a href="#">
@@ -209,25 +219,27 @@ class GraphicDesign extends Component {
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-4 servax">
-                                    <div className="brand-design ">
+                                    <div className="brand-design start-right">
                                         <a href="#">
                                             <Fade right>
                                                 <img src={d3} alt="" />
                                             </Fade>
                                         </a>
                                         <br/>
-                                        <h6 style={{ fontFamily: 'worksansbold',letterSpacing: '2px' }}>PACKAGING DESIGN</h6>
-                                        <p style={{ color: "rgb(0, 240, 220)", fontFamily: 'worksans' }}>
-                                            Full-service packaging design solution, from conceptual design to print ready artwork.
-                                        </p>
-                                        <li>Packaging Design</li>
-                                        <li>Brand Creation</li>
-                                        <li> Art Direction</li>
-                                        <li>Packaging Implementation</li>
-                                        <li>Product Development</li>
-                                        <li>Mockup Creation</li>
-                                        <li>Packaging Production</li>
-                                        <li>Prepress Preparation</li>
+                                        <h6 >طراحی بسته بندی</h6>
+                                        <span dir="rtl">
+                                            <p className=" color">
+                                                ارائه تمام راه حل های بسته بندی، از طراحی مفهومی تا اثر هنری آماده چاپ.
+                                            </p>
+                                            <li>Packaging Design</li>
+                                            <li>Brand Creation</li>
+                                            <li> Art Direction</li>
+                                            <li>Packaging Implementation</li>
+                                            <li>Product Development</li>
+                                            <li>Mockup Creation</li>
+                                            <li>Packaging Production</li>
+                                            <li>Prepress Preparation</li>
+                                        </span>
                                         <br />
                                         <br />
                                         <a href="#">
@@ -246,11 +258,13 @@ class GraphicDesign extends Component {
                     <div className="jumbotron">
                         <div className="container">
 
-                            <h6 className="name">ABOUT</h6>
+                            <h6 className="name">درباره</h6>
                             {/*<Fade left>*/}
-                            <p className="describe-designer">
-                                My name is David Cox, a British freelance Graphic Designer, Branding Consultant and Packaging Designer based in Los Angeles. I have over 25 years experience working with the world’s leading brands and have developed more than 200 brands while collaborating with some of the best design agencies around the globe.
+                            <p className="describe-designer start-right">
+                                <span dir="rtl">
+                                من دیوید کاکس، طراح گرافیک فریلنس، مشاور برندینگ و طراح بسته بندی محصولات و مستقر در لوس آنجلس هستم. من بیشتر از 15 سال سابقه همکاری با بهترین برندهای جهان و همکاری در طراحی بیستر از 100 لوگو با بهترین آژانس های تبلیغاتی جهانی دارم.
                                 <br/>
+                                </span>
                             </p>
                             <br/>
                             {/*</Fade>*/}
@@ -357,27 +371,26 @@ class GraphicDesign extends Component {
                         <div className="container blue-container">
 
                             <strong>
-                                <p className="name"> BRAND BUILDING</p>
+                                <p className="name">ساخت برند</p>
                             </strong>
                             <div className="row">
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <h2 className="blue-describe ">
-                                        Developing brands with the bigger picture in mind.
+                                  <span dir="rtl">
+                                    <h2 className="blue-describe start-right">
+                                        توسعه برند با در نظر داشتن تصویر بزرگ.
+
                                     </h2>
-                                    <p style={{fontFamily: 'worksans'}}>
-                                        You never quite know how customers will first discover your
-                                        business. It may be through your website, online
-                                        advertising, business card or an exhibition stand at a trade
-                                        show, so it’s imperative they all work together and are of
-                                        the same high quality. The ability to consider other brand
-                                        assets during design and production, even if I am not tasked
-                                        with doing them, ultimately helps to create a more cohesive
-                                        brand. My extensive experience means I’m able to design,
-                                        implement and produce just about any item you require. From
-                                        stationery, printed collateral, press adverts and brand
-                                        guidelines to packaging, office branding, exhibition stands,
-                                        websites, online advertising and your{" "}
+                                    <p >
+                                        ما هیچ وقت متوجه نمیشویم که مشتریان چگونه برای اولین بار با کار ما آشنا میشوند.
+                                        ممکن از طریق وبسایت، تبلیغات آنلاین، کارت کاری شما یا غرفه ای در نمایشگاه باشد.
+                                        پس امری ضروریست که تمامی آنها فرستنده یک پیغام و هم سو باشند. توانایی در نظر گرفتن باقی
+                                        داراییها در طول طراحی و تولید، حتی اگر در زمان سفارش از من خواسته نشده باشد،
+                                        در نهایت به نمایش یکنواخت بودن هویت برند می شود. تجربه گسترده من به این معناست که
+                                        توانایی طراحی، پیاده سازی و ساخت هر ایتم خواست شما را دارم. از لوازم تحریر، وثایق چاپی،
+                                        تبلیغات چاپی و دستورالعمل های استفاده از لوگوی برند و بسته بندی، برند دفتری، استندهای نمایشگاهی،
+                                        وبسایتها و تبلیغات آنلاین و ...
                                     </p>
+                                  </span>
 
                                 </div>
                                 <div className="col-sm-12 col-md-12 col-lg-6">
@@ -394,7 +407,7 @@ class GraphicDesign extends Component {
                     <div className="jumbotron">
                         <div className="container">
 
-                            <h6 className="name">BRANDS</h6>
+                            <h6 className="name">برندها</h6>
                             {/*<Fade left>*/}
                             <p className="describe-brands">
                                 From telecommunication giants, household brands and private jet companies to small businesses and individuals, I’ve completed work in just about every business sector.
@@ -448,7 +461,7 @@ class GraphicDesign extends Component {
                 <section className="news">
                     <div className="jumbotron">
                         <div className="container">
-                            <h6 className="name">NEWS</h6>
+                            <h6 className="name">اخبار</h6>
                             <p className="describe-brands">
                                 All the latest news, updates on recent projects and stories from the world of design.
                             </p>

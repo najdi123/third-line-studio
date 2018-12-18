@@ -12,22 +12,25 @@
 .content-wrap{
     padding: 0;
 }
-
+.top {
+    margin-top: 60px;
+}
 .describe {
-    font:  300 35px "worksans","Open Sans","Arial",sans-serif;
+    font:  300 1.5rem "worksans","Open Sans","Arial",sans-serif;
     line-height: 42px;
     letter-spacing: 0px;
     text-transform: none;
     margin-bottom: 0;
+    text-align: right;
 }
 .name {
-    font: 700 15px "worksansbold","Open Sans","Arial",sans-serif;
-    letter-spacing: 2px;
+    font: 700 17px "worksansbold","Open Sans","Arial",sans-serif;
+    /*letter-spacing: 2px;*/
     line-height: 2em;
+    text-align: right;
+    border-right: 5px solid rgb(0, 240, 220);
 
-    border-left: 5px solid rgb(0, 240, 220);
-
-    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .jumbotron{
@@ -83,7 +86,12 @@ img{
     visibility: visible;
     opacity: 1;
 }
-
+.start-right {
+    text-align: right;
+}
+.color {
+    color: rgb(0, 240, 220);
+}
 /*services starts here*/
 .services{
     background-color: darkblue;
@@ -96,15 +104,16 @@ img{
 }
 .blue-describe{
 
-    font:  300 35px "worksans","Open Sans","Arial",sans-serif;
+    font:  300 1.5rem "worksans","Open Sans","Arial",sans-serif;
     line-height: 42px;
     letter-spacing: 0px;
     text-transform: none;
     margin-bottom: 4rem;
+    text-align: right;
 
 }
 .describe-designer {
-    font:  300 22px "worksans","Open Sans","Arial",sans-serif;
+    font:  300 17px "worksans","Open Sans","Arial",sans-serif;
     line-height: 30px;
     letter-spacing: 0px;
     text-transform: none;
@@ -129,6 +138,11 @@ img{
 
     /*padding: 0.5rem 0.5rem 0.5rem 0.5rem;*/
     padding: 0.65rem;
+}
+.brand-logo:hover{
+    transition-timing-function: ease;
+    transition: 0.7s;
+    transform: scale(1.38);
 }
 .news-pad{
     padding: 0;
