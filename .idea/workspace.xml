@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffd93a9d-9ee6-41de-9cb6-091749bd8226" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studio4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LOGO +.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/GraphicDesign.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GraphicDesign.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -71,7 +63,7 @@
           <entry key="css" value="107" />
           <entry key="html" value="6" />
           <entry key="json" value="6" />
-          <entry key="jsx" value="1661" />
+          <entry key="jsx" value="1740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -79,7 +71,7 @@
           <entry key="CSS" value="107" />
           <entry key="HTML" value="6" />
           <entry key="JSON" value="6" />
-          <entry key="JSX Harmony" value="1661" />
+          <entry key="JSX Harmony" value="1740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -143,8 +135,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="463" column="54" selection-start-line="463" selection-start-column="54" selection-end-line="463" selection-end-column="54" />
+            <state relative-caret-position="238">
+              <caret line="466" column="107" selection-start-line="466" selection-start-column="107" selection-end-line="466" selection-end-column="107" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#229#258#0" expanded="true" />
@@ -357,18 +349,18 @@
       <workItem from="1524650955063" duration="867000" />
       <workItem from="1527162729925" duration="101000" />
       <workItem from="1545048774410" duration="2781000" />
-      <workItem from="1545123753006" duration="8770000" />
+      <workItem from="1545123753006" duration="9139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105169000" />
+    <option name="totallyTimeSpent" value="105538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21810971" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21810971" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -381,7 +373,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21843971" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21843971" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -539,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="463" column="54" selection-start-line="463" selection-start-column="54" selection-end-line="463" selection-end-column="54" />
+        <state relative-caret-position="238">
+          <caret line="466" column="107" selection-start-line="466" selection-start-column="107" selection-end-line="466" selection-end-column="107" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#229#258#0" expanded="true" />

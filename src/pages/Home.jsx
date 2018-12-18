@@ -462,17 +462,20 @@ class GraphicDesign extends Component {
                     <div className="jumbotron">
                         <div className="container">
                             <h6 className="name">اخبار</h6>
-                            <p className="describe-brands">
-                                All the latest news, updates on recent projects and stories from the world of design.
+                            <p className="describe-brands start-right">
+                                <span dir="rtl">
+                                    آخرین اخبار، به روزرسانیهای پروژه های اخیر و داستانهایی از دنیای طراحی.
+                                </span>
                             </p>
 
                             <section className="row news-images">
                                 <div className="col-sm-12 col-md-4 col-lg-4 news-pad">
                                     <a className="nav-link" to="#">
                                         <img src={n1} alt="" />
-                                        <h5 className="describe-news" style={{paddingTop: '2rem'}}>
-                                            Thou Shall Not Consult With thy Neighbor’s Wife for Design
-                                            Feedback
+                                        <h5 className="describe-news start-right" style={{paddingTop: '2rem'}}>
+                                            <span dir="rtl">
+                                            نباید از زن همسایه مشورت برای بازخورد طراحی خواست.
+                                            </span>
                                         </h5>
                                     </a>
                                     <p style={{ color: "rgb(0, 240, 220)" }}>SEPTEMBER 17, 2017</p>
